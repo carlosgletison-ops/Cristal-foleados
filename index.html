@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Cristal Folheados — Elegância e Sofisticação em Cada Detalhe. Joias e semijoias de alta qualidade."/>
+  <title>Cristal Folheados — Elegância em Cada Detalhe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 80%22 fill=%22%23C5944E%22 stroke=%22%23C5944E%22><ellipse cx=%2250%22 cy=%2245%22 rx=%2242%22 ry=%2222%22 fill=%22none%22 stroke-width=%224%22 transform=%22rotate(-12 50 45)%22/><text x=%2250%22 y=%2261%22 font-family=%22serif%22 font-size=%2258%22 font-style=%22italic%22 font-weight=%22600%22 text-anchor=%22middle%22 stroke=%22none%22>C</text><path d=%22M95,10 Q98,30 118,33 Q98,36 95,56 Q92,36 72,33 Q92,30 95,10 Z%22 stroke=%22none%22/><path d=%22M95,17 Q97,31 108,33 Q97,35 95,49 Q93,35 82,33 Q93,31 95,17 Z%22 stroke=%22none%22 transform=%22rotate(45 95 33)%22/></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- SPLASH SCREEN -->
+<div id="splash">
+  <div class="splash-logo">
+    <div class="splash-wordmark">Cristal</div>
+    <div class="splash-sub">Folheados &nbsp;·&nbsp; Joias &amp; Semijoias</div>
+  </div>
+  <div class="splash-divider"></div>
+  <p class="splash-tagline">"Elegância e sofisticação em cada detalhe."</p>
+  <div class="splash-bar-wrap">
+    <div class="splash-bar"></div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+
+    <!-- Logo -->
+    <a href="index.html" class="site-logo">
+      <img src="logo.png" alt="Cristal Folheados" style="height: 85px;">
+    </a>
+
+    <!-- Center nav — desktop -->
+    <nav class="header-nav" id="headerNav">
+      <a href="catalogo.html" class="header-nav-link">Catálogo</a>
+      <a href="#vitrine" class="header-nav-link">Vitrine</a>
+      <a href="#sobre" class="header-nav-link">Sobre</a>
+    </nav>
+
+    <!-- Search bar (expands inside pill) -->
+    <div class="header-search-wrap" id="headerSearchWrap">
+      <input
+        type="search"
+        id="headerSearchInput"
+        class="header-search-input"
+        placeholder="Pesquisar joias..."
+        aria-label="Pesquisar produtos"
+        autocomplete="off"
+      />
+      <button class="header-search-clear" id="headerSearchClear" aria-label="Limpar pesquisa">✕</button>
+    </div>
+
+    <!-- Right actions -->
+    <div class="header-right">
+      <!-- Search toggle -->
+      <button class="btn-icon-pill" id="btnSearch" aria-label="Pesquisar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+      </button>
+      <!-- WhatsApp -->
+      <a href="https://wa.me/5588998333235" class="btn-whatsapp-header" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        Fale Connosco
+      </a>
+      <!-- Sacola -->
+      <a href="sacola.html" class="btn-sacola" id="btnSacola" aria-label="Sacola">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+        <span class="sacola-count" id="sacolaCount">0</span>
+      </a>
+      <!-- Hamburger (mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+  </div>
+</header>
+
+<!-- MOBILE MENU -->
+<nav class="mob-menu" id="mobMenu" aria-hidden="true">
+  <span class="mob-corner mob-corner--tl" aria-hidden="true"></span>
+  <span class="mob-corner mob-corner--tr" aria-hidden="true"></span>
+  <span class="mob-corner mob-corner--bl" aria-hidden="true"></span>
+  <span class="mob-corner mob-corner--br" aria-hidden="true"></span>
+  <button class="mob-close" id="mobClose" aria-label="Fechar">✕</button>
+  <div class="mob-header">
+    <a href="index.html" class="mob-logo"><img src="logo.png" alt="Cristal Folheados"></a>
+    <p class="mob-tagline">Joias &amp; Semijoias</p>
+  </div>
+  <div class="mob-divider"><span>✦</span></div>
+  <div class="mob-search-wrap">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="search" id="mobSearchInput" class="mob-search-input" placeholder="Pesquisar joias..." autocomplete="off"/>
+  </div>
+  <nav class="mob-nav">
+    <a href="catalogo.html" class="mob-link" style="--i:0">Catálogo</a>
+    <a href="#vitrine"      class="mob-link" style="--i:1">Vitrine</a>
+    <a href="#sobre"        class="mob-link" style="--i:2">Sobre</a>
+    <a href="sacola.html"   class="mob-link" style="--i:3">Sacola</a>
+  </nav>
+  <div class="mob-footer">
+    <a href="https://wa.me/5588998333235" class="mob-wa-btn" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+      Fale Connosco
+    </a>
+    <p class="mob-copy">© 2025 Cristal Folheados</p>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero-img-wrap">
+    <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=95&w=1400&auto=format&fit=crop" alt="Modelo usando joias Cristal Folheados" class="hero-img"/>
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <p class="hero-label">Coleção 2025</p>
+    <h1 class="hero-title">Elegância e Sofisticação<br/><em>em Cada Detalhe</em></h1>
+    <p class="hero-sub">Joias e semijoias criadas para realçar a sua beleza e contar a sua história.</p>
+    <a href="catalogo.html" class="btn-gold">Ver Coleção</a>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Anéis</span><span>✦</span><span>Brincos</span><span>✦</span>
+    <span>Colares</span><span>✦</span><span>Pulseiras</span><span>✦</span>
+    <span>Pingentes</span><span>✦</span><span>Semijoias</span><span>✦</span>
+    <span>Anéis</span><span>✦</span><span>Brincos</span><span>✦</span>
+    <span>Colares</span><span>✦</span><span>Pulseiras</span><span>✦</span>
+    <span>Pingentes</span><span>✦</span><span>Semijoias</span><span>✦</span>
+  </div>
+</div>
+
+<!-- VITRINE -->
+<section class="vitrine-section" id="vitrine">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Nossa Vitrine</span>
+      <h2 class="section-title">Peças em <em>Destaque</em></h2>
+      <p class="section-sub">Clique na peça desejada e fale diretamente com a nossa consultora.</p>
+    </div>
+    <div class="products-grid" id="productsGrid">
+
+      <article class="product-card" onclick="openModal('Anel Solitário Dourado','R$ 189,90')">
+        <div class="product-thumb">
+          <img src="https://images.unsplash.com/photo-1599643478524-fb9651280b06?q=90&w=600&h=750&auto=format&fit=crop" alt="Anel Solitário Dourado" loading="lazy"/>
+          <span class="product-badge">Mais Vendido</span>
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Anel Solitário Dourado</h3>
+          <p class="product-price">R$ 189,90</p>
+          <button class="btn-quero" onclick="event.stopPropagation();openModal('Anel Solitário Dourado','R$ 189,90')">Quero este</button>
+        </div>
+      </article>
+
+      <article class="product-card" onclick="openModal('Brinco Gota Dourado','R$ 89,90')">
+        <div class="product-thumb">
+          <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?q=90&w=600&h=750&auto=format&fit=crop" alt="Brinco Gota Dourado" loading="lazy"/>
+          <span class="product-badge new-badge">Novo</span>
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Brinco Gota Dourado</h3>
+          <p class="product-price">R$ 89,90</p>
+          <button class="btn-quero" onclick="event.stopPropagation();openModal('Brinco Gota Dourado','R$ 89,90')">Quero este</button>
+        </div>
+      </article>
+
+      <article class="product-card" onclick="openModal('Colar Pérola Cultivada','R$ 149,90')">
+        <div class="product-thumb">
+          <img src="https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?q=90&w=600&h=750&auto=format&fit=crop" alt="Colar Pérola Cultivada" loading="lazy"/>
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Colar Pérola Cultivada</h3>
+          <p class="product-price">R$ 149,90</p>
+          <button class="btn-quero" onclick="event.stopPropagation();openModal('Colar Pérola Cultivada','R$ 149,90')">Quero este</button>
+        </div>
+      </article>
+
+      <article class="product-card" onclick="openModal('Pulseira Tênis Zircônia','R$ 129,90')">
+        <div class="product-thumb">
+          <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=90&w=600&h=750&auto=format&fit=crop" alt="Pulseira Tênis Zircônia" loading="lazy"/>
+          <span class="product-badge">Exclusivo</span>
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Pulseira Tênis Zircônia</h3>
+          <p class="product-price">R$ 129,90</p>
+          <button class="btn-quero" onclick="event.stopPropagation();openModal('Pulseira Tênis Zircônia','R$ 129,90')">Quero este</button>
+        </div>
+      </article>
+
+      <article class="product-card" onclick="openModal('Aliança Duo Banhada a Ouro','R$ 219,90')">
+        <div class="product-thumb">
+          <img src="https://images.unsplash.com/photo-1543294001-f7cd5d7fb516?q=90&w=600&h=750&auto=format&fit=crop" alt="Aliança Duo Banhada a Ouro" loading="lazy"/>
+          <span class="product-badge new-badge">Lançamento</span>
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Aliança Duo Banhada a Ouro</h3>
+          <p class="product-price">R$ 219,90</p>
+          <button class="btn-quero" onclick="event.stopPropagation();openModal('Aliança Duo Banhada a Ouro','R$ 219,90')">Quero este</button>
+        </div>
+      </article>
+
+      <article class="product-card" onclick="openModal('Brinco Argola Rosé','R$ 79,90')">
+        <div class="product-thumb">
+          <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?q=90&w=600&h=750&auto=format&fit=crop" alt="Brinco Argola Rosé" loading="lazy"/>
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Brinco Argola Rosé</h3>
+          <p class="product-price">R$ 79,90</p>
+          <button class="btn-quero" onclick="event.stopPropagation();openModal('Brinco Argola Rosé','R$ 79,90')">Quero este</button>
+        </div>
+      </article>
+
+      <article class="product-card" onclick="openModal('Colar Veneziana Dourado','R$ 169,90')">
+        <div class="product-thumb">
+          <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=90&w=600&h=750&auto=format&fit=crop" alt="Colar Veneziana Dourado" loading="lazy"/>
+          <span class="product-badge">Premium</span>
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Colar Veneziana Dourado</h3>
+          <p class="product-price">R$ 169,90</p>
+          <button class="btn-quero" onclick="event.stopPropagation();openModal('Colar Veneziana Dourado','R$ 169,90')">Quero este</button>
+        </div>
+      </article>
+
+      <article class="product-card" onclick="openModal('Pingente Coração Folheado','R$ 59,90')">
+        <div class="product-thumb">
+          <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=90&w=600&h=750&auto=format&fit=crop" alt="Pingente Coração Folheado" loading="lazy"/>
+          <span class="product-badge new-badge">Novo</span>
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Pingente Coração Folheado</h3>
+          <p class="product-price">R$ 59,90</p>
+          <button class="btn-quero" onclick="event.stopPropagation();openModal('Pingente Coração Folheado','R$ 59,90')">Quero este</button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section class="sobre-section" id="sobre">
+  <div class="sobre-img">
+    <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=90&w=900&auto=format&fit=crop" alt="Joias Cristal Folheados" loading="lazy"/>
+  </div>
+  <div class="sobre-content">
+    <span class="section-label">Quem Somos</span>
+    <h2 class="sobre-title">Arte que você<br/><em>carrega na pele</em></h2>
+    <p class="sobre-text">Na Cristal Folheados, cada peça é escolhida com cuidado e paixão. Trabalhamos com semijoias de alta qualidade, banhadas a ouro e prata, para que você se sinta radiante em cada momento da sua vida.</p>
+    <div class="diferenciais">
+      <div class="diferencial">
+        <span class="dif-icon">✦</span>
+        <div>
+          <p class="dif-title">Qualidade Garantida</p>
+          <p class="dif-desc">Peças com banho reforçado e durabilidade comprovada.</p>
+        </div>
+      </div>
+      <div class="diferencial">
+        <span class="dif-icon">✦</span>
+        <div>
+          <p class="dif-title">Atendimento Personalizado</p>
+          <p class="dif-desc">Fale diretamente com a consultora pelo WhatsApp.</p>
+        </div>
+      </div>
+      <div class="diferencial">
+        <span class="dif-icon">✦</span>
+        <div>
+          <p class="dif-title">Entrega Rápida</p>
+          <p class="dif-desc">Enviamos para todo o Brasil com segurança e agilidade.</p>
+        </div>
+      </div>
+    </div>
+    <a href="https://wa.me/5588998333235" class="btn-gold" target="_blank" rel="noopener">Fale Connosco no WhatsApp</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <a href="index.html" class="footer-logo">
+      <img src="logo.png" alt="Cristal Folheados" style="height: 100px; margin: 0 auto 1rem auto;">
+    </a>
+    <p class="footer-tagline">"Elegância e sofisticação em cada detalhe."</p>
+    <p class="footer-contato">
+      WhatsApp: <a href="https://wa.me/5588998333235">(88) 9 9833-3235</a>
+    </p>
+    <p class="footer-copy">© 2025 Cristal Folheados. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<!-- WHATSAPP FAB -->
+<a href="https://wa.me/5588998333235" class="wa-fab" aria-label="WhatsApp" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<!-- MODAL WHATSAPP -->
+<div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-box">
+    <button class="modal-close" id="modalClose" aria-label="Fechar">✕</button>
+    <div class="modal-header">
+      <span class="modal-label">Compra Rápida</span>
+      <h2 class="modal-title" id="modalTitle">Quase lá!</h2>
+      <p class="modal-sub">Preencha o seu nome e enviaremos a mensagem pronta para o WhatsApp.</p>
+    </div>
+    <div class="modal-product-info">
+      <p class="modal-product-name" id="modalProductName"></p>
+      <p class="modal-product-price" id="modalProductPrice"></p>
+    </div>
+    <form class="modal-form" id="modalForm" onsubmit="submitModal(event)">
+      <label for="clientName">O seu nome</label>
+      <input type="text" id="clientName" placeholder="Ex: Maria Silva" required autocomplete="given-name"/>
+      <button type="submit" class="btn-gold btn-full">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        Enviar pelo WhatsApp
+      </button>
+    </form>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
